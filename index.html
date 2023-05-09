@@ -5,22 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog TerraVerde.com</title>
+    <link rel="stylesheet" href="./css/Style.css">
+
 </head>
 <body>
-    <ul>
+    <main id="menu">
+    <ul class="menu">
         <li><a href="index.html">Início</a></li>
-        <li>Nossos Produtos</li>
-        <li>Sobre Nós</li>
+        <li><a href="loja.html">Nossos Produtos</a></li>
+        <li><a href="index.html">Sobre Nós</a></li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
-    <h1>Sobre o Blog TerraVerde.com</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </main>
 
-    <img src="assets/img/LOGO TERRA VERDE.jpg" alt="Foto de Perfil">
+    <div class="pesquisar">
+        <div class="caixa-pesquisa">
+            <form method="post" action="#">
+                <input type="text" class="input-caixa-pequisa" name="busca" placeholder="Busque um tema/artigo do seu interesse">
+                <button class="botao-caixa-pesquisa"><i class="caixa-pesquisa-icone icone icone-pesquisa"></i></button>
 
-    <h2>O que é agroecologia? (Vídeo)</h2>
+            </form>
 
+        </div>
+
+    </div>
+
+
+    <h1 id="titulo">Sobre o Blog TerraVerde.com</h1>
+    <div class="container">
+        <div>
+            <p style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div>
+            <img src="assets/img/LOGO TERRA VERDE.jpg" alt="Foto de Perfil">
+        </div>
+    </div>
+    <h2 id="agro-eco">O que é agroecologia? (Vídeo)</h2>
+    <div class="video">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/QFrNNj9RM5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+    </div>
 </body>
+
+<footer>
+    Lucas Lima
+</footer>
 </html>
