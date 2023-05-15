@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto+Flex:wght@500&display=swap');
+
+/* resetando css */
+:root {
+    --pyt: 'Paytone One', sans-serif;
+    --rbt: 'Roboto Flex', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #00000050;
+    background-color: #1D1C1A;
+}
+
+
+:root {
+    scrollbar-color: #E3E3E3 #1D1C1A !important;
+    scrollbar-width: thin !important;
+}
+
+/* Página Index */
+
+.center{
+    text-align: center;
+}
+
+body{
+    
+    background-image: url(https://images.squarespace-cdn.com/content/v1/59f023aff43b556e5b63485f/1589401781569-0BLUW3K3HWQVQ5A887SZ/The+Midnight+Gospel_05.jpg?format=2500w);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+
+    font-family: var(--rbt);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.menu li{
+    display: inline;
+    padding: 5px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #91f5f8;
+    border-radius: 10pt;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black    ;
+}
+
+.menu li a:hover{
+    color: white;
+
+}
+
+/* SearchBox */
+.pesquisar{
+    display: flex;
+    justify-content: center;
+}
+.caixa-pequisa{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-caixa-pequisa{
+    width: 200px;
+    height: 20px;
+    border-radius: 5pt;
+    margin-top: 40px;
+}
+
+.botao-caixa-pesquisa{
+    width: 60px;
+    height: 20px;
+    background-color: aqua;
+    border-color: aqua;
+}
+
+.titulo{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: var(--pyt);
+    font-size: 2.3rem;
+    margin-top: -10px;
+    color: #ff00d4;
+    text-shadow: 
+                -1px -1px 0px #000, 
+                -1px 1px 0px #000,      
+                1px -1px 0px #000,    
+                1px 0px 0px #000;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+
+h2{
+    font-family: var(--rbt);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: aquamarine;
+    text-shadow:
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,      
+    1px -1px 0px #000,    
+    1px 0px 0px #000;
+}
+
+.citei{
+    justify-content: center;
+    margin-top: 30px;
+    width: 600px;
+
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: #ff0d0d;
+    font-weight: 600;
+    text-shadow:
+    -1px -1px 0px #fff, 
+    -1px 1px 0px #fff,      
+    1px -1px 0px #fff,    
+    1px 0px 0px #fff;
+}
+
+.dog{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Fim Página Index */
+
+/* Inicio da Pagina Contato */
+.informacoes {
+    display: flex;
+    flex-flow: center;
+}
+
+.formulario{
+    margin-left:10%;
+
+}
+
+.box{
+    display: flex;
+    align-items: flex-start;
+}
+.contato{
+    margin-left:20%;
+}
+
+#address{
+    margin-bottom: 10px;
+
+}
+
+/* Fim da Pagina Contato */
+
+
+/* Inicio do footer */
+footer{
+    background-color: #E3E3E3;
+    height: 60px;
+
+}
+
+/* Fim do footer */
